@@ -441,7 +441,7 @@ ul { list-style: none; }
   max-width: 560px;
   margin: 0 auto;
   color: var(--text-mid);
-  font-size: 0.95rem;
+  font-size: 1.0rem;
   line-height: 1.7;
 }
 
@@ -504,7 +504,7 @@ ul { list-style: none; }
 
 .area-card h3 {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--navy);
   margin-bottom: 12px;
@@ -513,7 +513,7 @@ ul { list-style: none; }
 
 .area-card p {
   color: var(--text-mid);
-  font-size: 0.88rem;
+  font-size: 1.0rem;
   line-height: 1.75;
 }
 
@@ -527,7 +527,7 @@ ul { list-style: none; }
 
 .area-card--otros ul li {
   color: var(--text-mid);
-  font-size: 0.88rem;
+  font-size: 1.0rem;
   padding: 5px 0;
   display: flex;
   align-items: flex-start;
@@ -555,8 +555,9 @@ ul { list-style: none; }
 
 .abogados-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 40px;
+  justify-items: center;
 }
 
 .abogado-card {
@@ -576,7 +577,7 @@ ul { list-style: none; }
 
 .abogado-photo-wrap {
   position: relative;
-  height: 320px;
+  height: 520px;
   overflow: hidden;
 }
 
